@@ -6,7 +6,8 @@ int main()
     int b=a*a;
     int c=a;
     int r,s=0;
-    while(c!=0){
+    while(c!=0)
+    {
         r=c%10;
         s=s*10+r;
         c=c/10;
